@@ -1,0 +1,39 @@
+h1{
+    color: black;
+    padding: 20px;
+    text-shadow: 1px 1px 3px #272727;
+}
+.body-jadwal{
+    background-image: url('img/pexels-monstera-5635111.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px; 
+}
+.full-all{
+    display: flex;
+}
+.main-table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1em;
+    width: 50%;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #000000;
+    
+}
+.main-table thead tr {
+    background-color: rgba(92, 92, 92, 0.735);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.main-table th,
+.main-table td {
+    padding: 12px 15px;
+    border: 5px;
+}
+

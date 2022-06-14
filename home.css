@@ -1,0 +1,42 @@
+.body-index{
+    background-image: url('img/mateo-avila-chinchilla-x_8oJhYU31k-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-index h1 {
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    font-size: 4.2em;
+}
+
+.body-index hr {
+    width: 40%;
+}
+
+.body-index h3 {
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+}
+
+.body-index a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-top: 30px;
+    transition: 0.3s all ease;
+}
+
+.body-index a:hover {
+    transform: translateY(-5px);
+}
